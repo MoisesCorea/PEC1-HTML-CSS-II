@@ -1,0 +1,107 @@
+<!-- UOC Container (Bloque principal) -->
+
+<!DOCTYPE html>
+
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
+    <title>Music & Art</title>
+  </head>
+  <body>
+    <include src="./views/header.html"></include>
+    <div class="container">
+      <h1>Últimas noticias</h1>
+      <section class="container__news-container">
+        <div class="container__news-container__news">
+          <h3>¡Mike Portnoy regresa a D.T.!</h3>
+          <picture>
+            <img src="../src/assets/images/news/dt.jpg" alt="" class="img-responsive" width="900" height="900">
+          </picture>
+          <p>
+            La banda de metal progresivo Dream Theater ha anunciado una de las noticias más soñadas por todos sus 
+            seguidores desde hace años: Mike Portnoy vuelve a ser el batería oficial del quinteto.
+          </p><br>
+          <a href="https://www.mondosonoro.com/noticias-actualidad-musical/mike-portnoy-dream-theater/">Leer más</a>
+        </div>
+        <div class="container__news-container__news">
+          <h3>La fonda cultural de Julián Maeso</h3>
+          <picture>
+            <img src="../src/assets/images/news/jm.jpeg" alt="" class="img-responsive" width="900" height="900">
+          </picture>
+          <p>
+            Músico instrumentista de peso en la escena española, se ha inventado Frank sin Ancla, un espacio único en el que repara 
+            e interviene en pianos, teclados y órganos para ponerlos a disposición de quien quiera tocarlos .
+          </p><br>
+          <a href="https://elpais.com/eps/2023-09-12/la-fonda-cultural-de-julian-maeso.html">Leer más</a>
+        </div>
+        <div class="container__news-container__news">
+          <h3>El lutier desvela sus secretos</h3>
+          <picture>
+            <img src="../src/assets/images/news/hd.jpeg" alt="" class="img-responsive" width="900" height="900">
+          </picture>
+          <p>
+            En el mundo del inventor y artesano Hugo Domínguez (Buenos Aires, 77 años) cada instrumento formal tiene su contraparte informal. Domínguez inventa y fabrica artefactos musicales alejados de la nobleza.
+          <p><br>
+          <a href="https://elpais.com/noticias/hugo-dominguez-buitron/">Leer más</a>
+        </div>
+      </section>
+      <h1>Marcas populares (novedades)</h1>
+      <section class="container__brands-container">
+        <div class="container__brands-container__brands">
+            <a href="https://www.bachbrass.com/"><img src="./assets/images/brands/bach.svg" alt="" width="150" height="150" class="img-responsive"></a>
+            <h5>bachbrass</h5>
+        </div>
+        <div class="container__brands-container__brands">
+            <a href="https://www.buffet-crampon.com/en/"><img src="./assets/images/brands/buffetCrampon.svg" alt="" width="150" height="150" class="img-responsive"></a>
+            <h5>Buffet-Crampon</h5>
+        </div>
+        <div class="container__brands-container__brands">
+            <a href="https://www.fender.com/es/start"><img src="./assets/images/brands/ma-md-brand-fender-12-09-22.svg" alt="" width="150" height="150" class="img-responsive"></a>
+            <h5>Fender</h5>
+        </div>
+        <div class="container__brands-container__brands">
+            <a href="https://www.yamaha.com/"><img src="./assets/images/brands/ma-md-brand-yamaha-12-09-22.svg" alt="" width="150" height="150" class="img-responsive"></a>
+            <h5>Yamaha</h5>
+          </div>
+        <div class="container__brands-container__brands">
+            <a href="https://www.musicarts.com/Vandoren"><img src="./assets/images/brands/landover.svg" alt="" width="150" height="150" class="img-responsive"></a>
+            <h5>Vandoren</h5>
+          </div>
+        <div class="container__brands-container__brands">
+            <a href="https://marshall.com/?languageCode=es"><img src="./assets/images/brands/marshall.svg" alt="" width="150" height="150" class="img-responsive"></a>
+            <h5>Marshall</h5>
+          </div>
+      </section>
+      <h1>Cursos en línea</h1>
+      <section class="container__courses-container">
+        <div class="container__courses-container__course">
+          <picture>
+            <img src="../src/assets/images/courses/teclado.jpeg" class="img-responsive" alt="" width="900" height="900">
+          </picture>
+          <div class="container__courses-container__course__content-course">
+            <h3>Virtuoso</h3>
+            <p>Virtuosso te presenta el curso más completo para aprender a tocar el teclado, una guía detallada para que desarrolles tus habilidades musicales. Con este curso en video podrás aprender a tocar de manera clara, precisa y gradual y estudiarás todos los aspectos básicos de armonía, 
+              melodía y acompañamientos que te convertirán en un verdadero músico</p>
+            <a href="https://www.virtuosso.com/cursos-de-piano/">Ver más</a> 
+          </div> 
+        </div>
+        <div class="container__courses-container__course">
+          <picture>
+            <img src="../src/assets/images/courses/guitarra.jpeg" class="img-responsive" alt="" width="900" height="900">
+          </picture>
+          <div class="container__courses-container__course__content-course">
+            <h3>Tus clases de guitarra.com</h3>
+            <p>Aprende cómo tocar guitarra desde cero! Tu camino será muy sencillo gracias a un exclusivo método de enseñanza con cursos ordenados por temas,
+               por nivel y con explicaciones detalladas para que puedas aprender paso a paso de forma fácil, ordenada y a tu propio ritmo. Entrarás en contacto 
+               con el instrumento desde la primera clase y rápidamente estarás tocando tus primeros acordes, canciones y solos.</p>
+            <a href="https://www.tusclasesdeguitarra.com/">Ver más</a> 
+          </div> 
+        </div>
+      </section>
+    </div>
+    <include src="./views/footer.html"></include>
+    <script type="module" src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
+  </body>
+</html>
